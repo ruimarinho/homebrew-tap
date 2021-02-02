@@ -1,10 +1,10 @@
 require "language/node"
 
-class Gsts < Formula
+class ShellyUpdater < Formula
   desc "Obtain and store AWS STS credentials by authenticating via G Suite SAML"
   homepage "https://github.com/ruimarinho/gsts"
-  url "https://github.com/ruimarinho/gsts/archive/v3.0.0.tar.gz"
-  sha256 "1756ad6c3bfb86994ffc3dcc432e6a7166884f3dea51f8736bf25a9d7dddda1d"
+  url "https://github.com/ruimarinho/gsts/archive/v2.4.3.tar.gz"
+  sha256 "5df2f15aadb246c99ddc28186e5c33dbb0c15d138eeed5e93fd5dc1d1166c38b"
   license "MIT"
 
   bottle :unneeded
