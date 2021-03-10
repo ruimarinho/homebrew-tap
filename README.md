@@ -14,7 +14,7 @@ Install any available packages just like any other Homebrew package:
 
 ```shell
 ❯ brew install gsts
-❯ brew install shelly-updater
+❯ brew install mota
 ```
 
 # License
