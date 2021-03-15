@@ -5,17 +5,17 @@
 class Mota < Formula
   desc "A Shelly device firmware updater based on zeroconf (or bonjour) discovery for local networks using their built-in Over-The-Air update interface. It is suited for network setups where IoT devices do not have internet connectivity."
   homepage "https://github.com/ruimarinho/mota"
-  version "2.0.0"
+  version "2.0.1"
   license "MIT"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/ruimarinho/mota/releases/download/v2.0.0/mota_2.0.0_macOS_x86_64.tar.gz"
-    sha256 "3d16e47b2fdf707d34f6072ff596e608fd232bd51409d03fcac5be2260f92916"
+    url "https://github.com/ruimarinho/mota/releases/download/v2.0.1/mota_2.0.1_macOS_x86_64.tar.gz"
+    sha256 "76f07f956568b36df11281271a2cce1706bb1fbad1f145ab9f625dac1f95d290"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/ruimarinho/mota/releases/download/v2.0.0/mota_2.0.0_Linux_x86_64.tar.gz"
-    sha256 "81d6715e6b39f3cec725bbacd0bf79a2cd30b9bd42f4b6b63d10d4d0efb661fb"
+    url "https://github.com/ruimarinho/mota/releases/download/v2.0.1/mota_2.0.1_Linux_x86_64.tar.gz"
+    sha256 "2845a5980f25da0e9541703856f0830cceaa3606006e4fa33266492e4c1d0979"
   end
 
   def install
