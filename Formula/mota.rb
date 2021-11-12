@@ -7,7 +7,6 @@ class Mota < Formula
   homepage "https://github.com/ruimarinho/mota"
   version "2.0.1"
   license "MIT"
-  bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/ruimarinho/mota/releases/download/v2.0.1/mota_2.0.1_macOS_x86_64.tar.gz"
