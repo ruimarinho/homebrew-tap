@@ -7,8 +7,6 @@ class Gsts < Formula
   sha256 "88623e4bcad5890c1901d65e831eeddc266656083bbf5f273e05689faba7468f"
   license "MIT"
 
-  bottle :unneeded
-
   depends_on "node"
 
   def install
