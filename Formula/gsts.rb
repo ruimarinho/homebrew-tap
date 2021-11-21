@@ -3,8 +3,8 @@ require "language/node"
 class Gsts < Formula
   desc "Obtain and store AWS STS credentials by authenticating via G Suite SAML"
   homepage "https://github.com/ruimarinho/gsts"
-  url "https://github.com/ruimarinho/gsts/archive/v3.0.7.tar.gz"
-  sha256 "605e1c0b323f199da95b387b9208973c879f7b1c260199b4977f4ff70889faca"
+  url "https://github.com/ruimarinho/gsts/archive/v4.0.0.tar.gz"
+  sha256 "a5493e629860fe7a98b6925df404e4284c503b0d7532b3fc954a4f4a8584ccb3"
   license "MIT"
 
   depends_on "node"
