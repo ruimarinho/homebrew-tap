@@ -10,8 +10,6 @@ class Gsts < Formula
   depends_on "node"
 
   def install
-    ENV["PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD"]="1"
-
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
     (bin/"gsts").write_env_script libexec/"lib/node_modules/gsts/index.js", PLAYWRIGHT_BROWSERS_PATH: "0"
   end
@@ -19,7 +17,7 @@ class Gsts < Formula
   def post_install
     ENV["PLAYWRIGHT_BROWSERS_PATH"]="0"
 
-    system "#{Formula["node"].bin}/node", "#{libexec}/lib/node_modules/gsts/node_modules/playwright/install.js"
+    system "#{Formula["node"].bin}/node", "#{libexec}/lib/node_modules/gsts/node_modules/playwright/cli.js", "install"
   end
 
   test do
